@@ -30,13 +30,13 @@
     "require": {
         "php": "^5.6|^7.0",
 
-        "symfony/framework-bundle": "^2.8",
+        "symfony/framework-bundle": "^3.0",
         "doctrine/orm": "^2.4.8,<2.5",
         "stof/doctrine-extensions-bundle": "~1.1",
-        "symfony/form": "^2.8",
-        "symfony/validator": "^2.8",
-        "sylius/resource-bundle": "^0.19",
-        "sylius/association": "^0.19"
+        "symfony/form": "^3.0",
+        "symfony/validator": "^3.0",
+        "sylius/resource-bundle": "dev-symfony_3_compatibility",
+        "sylius/association": "dev-symfony_3_compatibility"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.4"
